@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Link from 'next/link';
+import About from './about';
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -25,7 +26,7 @@ export default function Home() {
   </div>
   <div className="flex items-center space-x-4">
     <Link href="/" className="text-gray-300 hover:text-white">Home</Link>
-    <Link href="/about" className="text-gray-300 hover:text-white">About</Link>
+    <Link href="/about" className="text-gray-300 hover:text-white">About </Link>
     <Link href="/how-it-works" className="text-gray-300 hover:text-white">How it works</Link>
     <Link href="/contact" className="text-gray-300 hover:text-white">Contact Us</Link>
   </div>
@@ -35,7 +36,7 @@ export default function Home() {
   </div>
 </nav>
 
-<main className="flex flex-col items-center justify-center p-6">
+      <main className="flex flex-col items-center justify-center p-6">
   <h1 className="text-3xl font-bold text-center">Welcome to the Car Tracking App!</h1>
   <p className="text-center p-2">This app allows you to track your cars location, set reminders for maintenance, and more.</p>
   <div className="flex justify-center mt-4">

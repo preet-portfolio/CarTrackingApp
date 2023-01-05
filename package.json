@@ -15,7 +15,8 @@
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-router-dom": "^6.6.1"
+    "react-router-dom": "^6.6.1",
+    "tailwind.macro": "^0.5.10"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
