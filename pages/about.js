@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "../styles/Home.module.css";
-import Link from "next/link";
+// import Image from "next/image";
+// import { Inter } from "@next/font/google";
+// import styles from "../styles/Home.module.css";
+// import Link from "next/link";
 
 const About = () => {
   return (
@@ -18,9 +18,9 @@ const About = () => {
         </h1>
         <p className="text-gray-700">
           Welcome to the Car Document Tracking App! This app is designed to help
-          you keep track of all of your car's documents and their expiration
+          you keep track of all of your car`s documents and their expiration
           dates, so you never have to worry about forgetting to renew them. With
-          our app, you'll be able to easily view and manage all of your car's
+          our app, you`ll be able to easily view and manage all of your car`s
           documents in one place, and receive reminders when a document is about
           to expire.
         </p>
@@ -28,7 +28,7 @@ const About = () => {
         <ul className="list-disc pl-4">
           <li className="text-gray-700">
             Easy document management: With our app, you can view and manage all
-            of your car's documents in one place. You can easily add new
+            of your car`s documents in one place. You can easily add new
             documents and update their expiration dates, so you always have the
             most up-to-date information.
           </li>
@@ -38,8 +38,8 @@ const About = () => {
             missing a renewal deadline.
           </li>
           <li className="text-gray-700">
-            Secure and private: Your car's documents are important, and we
-            understand the importance of keeping them safe and secure. That's
+            Secure and private: Your car`s documents are important, and we
+            understand the importance of keeping them safe and secure. That`s
             why we use advanced security measures to protect your information
             and keep it private.
           </li>
