@@ -4,6 +4,9 @@ import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Link from 'next/link';
 import About from './about';
+import * as firebase from 'firebase/app';
+import 'firebase/auth';
+
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -41,7 +44,7 @@ export default function Home() {
   <p className="text-center p-2">This app allows you to track your cars location, set reminders for maintenance, and more.</p>
   <div className="flex justify-center mt-4">
     <a href="/track" className="px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
-      Track Your Car
+      Track Your Car Document
     </a>
   </div>
 </main>
